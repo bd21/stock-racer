@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     const fetchStockData = async () => {
-      const api_key = "Z6FXLNSBB1I5WSHR";
+      const api_key = "A3XWHM6SB6OJN8ZN";
       const urlParams = new URLSearchParams(window.location.search);
       const start_date = urlParams.get('start_date') || '2022-01-01';
       const stock1 = urlParams.get('stock1') || 'AAPL';
@@ -44,7 +44,7 @@ function App() {
         setStockData(processedData);
         setCompareInfo(compareInfo);
       } catch (err) {
-        setError('Error fetching stock data. Please try again later.');
+        setError('Our API provider\'s bitch ass limits us to 25 requests per day. Please try again tomorrow.');
         console.error(err);
       }
     };
