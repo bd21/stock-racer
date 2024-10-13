@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     const fetchStockData = async () => {
-      const api_key = "A3XWHM6SB6OJN8ZN";
+      const api_key = "D1BEMHV1R5I51BSH";
       const urlParams = new URLSearchParams(window.location.search);
       const start_date = urlParams.get('start_date') || '2022-01-01';
       const stock1 = urlParams.get('stock1') || 'AAPL';

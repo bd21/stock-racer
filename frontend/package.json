@@ -2,18 +2,21 @@
   "name": "stock-comparison-frontend",
   "version": "1.0.0",
   "description": "Frontend for stock comparison web app",
+  "homepage": "https://bd21.github.io/stock-racer",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "node deploy.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "chart.js": "^3.9.1",
-    "react-chartjs-2": "^4.3.1"
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "eslintConfig": {
     "extends": [
@@ -32,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
