@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stock-racer/static/css/main.9fd119f2.css",
+    "main.js": "/stock-racer/static/js/main.dea68b0c.js",
+    "index.html": "/stock-racer/index.html",
+    "main.9fd119f2.css.map": "/stock-racer/static/css/main.9fd119f2.css.map",
+    "main.dea68b0c.js.map": "/stock-racer/static/js/main.dea68b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fd119f2.css",
+    "static/js/main.dea68b0c.js"
+  ]
+}
